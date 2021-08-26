@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+  :root {
+    --primary: #455af7;
+    --secondary: #13D2B8;
+    --purple: #bd93f9;
+    --pink: #ff6bcb;
+    --blue: #8be9fd;
+    --gray: #333;
+    --font: "Poppins", sans-serif;
+    --gradient: linear-gradient(40deg, #ff6ec4, #7873f5);
+    --shadow: 0 0 15px 0 rgba(0,0,0,0.05);
+}
+  *,
+  *:before,
+  *:after {
+    box-sizing: border-box;
+}
+  html {
+    font-size: 62.5%;
+}
+  body {
+    font-family: var(--font);
+    font-size: 1.4rem;
+    overflow-x: hidden;
+    font-weight: 300;
+    /* background-color: #f8f8ff; */
+   
+    /* Blue Rasberry */
+    /* background: #00B4DB;
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+    background: linear-gradient(to right, #0083B0, #00B4DB); */
+
+    /* Sublime Vivid */
+    /* background: #FC466B;
+    background: -webkit-linear-gradient(to right, #3F5EFB, #FC466B);
+    background: linear-gradient(to right, #3F5EFB, #FC466B); */
+ 
+    background: #8360c3;
+    background: -webkit-linear-gradient(to right, #8360c3, #2ebf91);
+    background: linear-gradient(to right, #8360c3, #2ebf91);
+}
+
+  a {
+    text-decoration: none;
+}
+  input,
+  button,
+  textarea,
+  select {
+    font-family: var(--font);
+    font-size: 1.4rem;
+    font-weight: 300;
+    outline: none;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    -webkit-appearance: none;
+}
+  button {
+    cursor: pointer;
+}
+.container {
+    width: 300px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px 0px 30px 0px;
+    z-index: 2;
+    box-shadow: 0 5px 10px 0 rgba(248, 248, 255, 0.5);
+}
+h1.heading {
+    font-size: 20px;
+    font-weight: 600;
+    color: #373941;
+    text-align: center;
+    padding: 0 15px 10px 15px;
+    margin: 0 auto;
+}
+.notification {
+    background-color: #f8d7da;
+    display: none;
+}
+.notification p {
+    text-align: center;
+    color: #721c24;
+    margin: 0 auto;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+.content {
+    max-width: 300px;
+    height: 260px;
+    /* margin: 0 auto;
+    padding: 0 1.5rem 1.5rem 1.5rem; */
+    background-color: #F4F9FF;
+}
+.weather-icon {
+    max-width: 300px;
+    height: 128px;
+}
+.weather-icon img {
+    display: block;
+    /* max-width: 100%; */
+    margin: 0 auto;
+}
+.temperature-value {
+    font-family: "Rimouski";
+    max-width: 300px;
+    height: 60px;
+}
+.temperature-value p {
+    padding: 0;
+    margin: 0;
+    color: #293251;
+    font-size: 4em;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+.temperature-value span {
+    color: #293251;
+    font-size: 0.5em;
+}
+.temperature-description p {
+    font-family: var(--font);
+    padding: 8px;
+    margin: 0;
+    color: #293251;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.4em;
+}
+.location p {
+    font-family: var(--font);
+    margin: 0;
+    padding: 0;
+    color: #293251;
+    text-align: center;
+    font-weight: 500;
+    font-size: 0.9em;
+}
